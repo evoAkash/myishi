@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1038113231541",
+    "firebase_url": "https://headsup-5e605.firebaseio.com",
+    "project_id": "headsup-5e605",
+    "storage_bucket": "headsup-5e605.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038113231541:android:90659cc7c0cd99e123a4fc",
+        "android_client_info": {
+          "package_name": "com.example.ishi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038113231541-1euio9031g09dpktohs18cm6pv7sci9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFMU1JDyIbbzxhMou32Ch6tY_ne1raNO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038113231541-1euio9031g09dpktohs18cm6pv7sci9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
