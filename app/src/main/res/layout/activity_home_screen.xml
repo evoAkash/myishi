@@ -6,6 +6,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,48 +29,62 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="3">
-
-        <Button
-            android:id="@+id/btn_upload_byte"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/upload"/>
-
-    </LinearLayout>
-
     <TextView
-        android:id="@+id/tvFileName"
+        android:id="@+id/tvFileLoad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_margin="5dp"
-        android:text="File Name" />
+        android:text="% File Load"
+        android:visibility="gone"/>
 
-    <LinearLayout
+
+    <Button
+        android:id="@+id/btn_upload_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Upload" />
+
+    <Button
+        android:id="@+id/btn_upload_file2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:weightSum="5">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Private it" />
 
-        <ImageView
-            android:id="@+id/imgFile"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="4.7" />
+    <TextView
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/the_following_is_list_of_your_private_files"
+        android:textColor="#E91E63"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
 
-        <Button
-            android:id="@+id/btn_back"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="Back" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvListImg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp" />
 
-    </LinearLayout>
+    <TextView
+        android:id="@+id/btn_back1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/the_following_is_list_of_public_files"
+        android:textColor="#2196F3"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvListImg1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp" />
 
 </LinearLayout>

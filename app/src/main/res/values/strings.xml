@@ -3,4 +3,8 @@
     <string name="enter_your_mobile_number">enter your mobile number</string>
     <string name="continue1">Continue</string>
     <string name="upload">Upload</string>
+    <string name="back">Back</string>
+    <string name="nothing">nothing</string>
+    <string name="the_following_is_list_of_your_private_files">the following is list of your private files</string>
+    <string name="the_following_is_list_of_public_files">the_following_is_list_of_public_files</string>
 </resources>
